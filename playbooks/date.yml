@@ -1,6 +1,6 @@
 -
  name: Date playbook
- hosts: servers
+ hosts: localhost
  tasks:
    - name: this will show the date
      command: date
